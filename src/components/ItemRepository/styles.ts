@@ -38,7 +38,7 @@ export const Content = styled.div`
 
 `
 
-export const Description = styled.p`
+export const Description = styled.div`
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;

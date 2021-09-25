@@ -1,4 +1,4 @@
-import { Container, Span, Enter, Message } from "./styles";
+import { Container, Enter } from "./styles";
 import { FiArrowRight } from "@react-icons/all-files/fi/FiArrowRight";
 import { GoMarkGithub } from "@react-icons/all-files/go/GoMarkGithub";
 import { useState } from "react";
@@ -6,7 +6,6 @@ import { api } from "../../services/api";
 import { Context } from "../../context/index.js";
 import { useContext } from "react";
 import { useHistory } from "react-router";
-import { error } from "console";
 
 export function Login() {
   const [searchUser, setSearchUser] = useState("");
@@ -41,7 +40,6 @@ export function Login() {
             value={searchUser}
             onChange={(e) => setSearchUser(e.target.value)}
           ></input>
-
           <button type="button" onClick={Validate}>
             ENTRAR
             <span>

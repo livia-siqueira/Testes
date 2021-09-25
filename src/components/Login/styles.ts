@@ -72,16 +72,10 @@ export const Message = styled.span`
 `
 
 export const Span = styled.span`
-  .cLabel{
-    color: red;
+  color: red;
   font-weight: normal;
   font-size: 10px;
   margin-top: -30px;
   margin-left: 50%;
-
-  }
-  .sLabel {
-    display: none;
-  }
 `
 
